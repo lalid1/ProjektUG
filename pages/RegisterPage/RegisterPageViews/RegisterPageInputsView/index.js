@@ -20,7 +20,7 @@ const RegisterPageInputsView = (props) => {
         } else if (password !== repPassword) {
             console.warn("Passwords are different")
         } else if (!password.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$/)) {
-            console.warn("Incorrect password")
+            console.warn("Incorrect password format")
         } else {
             console.warn('Registered:' + login)
         }

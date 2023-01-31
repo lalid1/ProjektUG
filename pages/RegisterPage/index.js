@@ -9,32 +9,32 @@ export var users = {
             login:  'lalid_00',
             password: "abc",
             email: 'lalid.elali1@gmail.com',
-            balance: 3000,
+            balance: 123456.78,
             transactions: [
                 { username: 'krzysiek', title: 'Ziemniory', amo: -256.99 },
                 { username: 'maciek', title: 'Tanie ubrania', amo: -20 },
                 { username: 'czesiek', title: 'Drogie ubrania', amo: -350 },
                 { username: 'maciek', title: 'Wódeczka', amo: -26.99 },
                 { username: 'kubuś', title: 'Burrito', amo: -25.99 },
-                { username: 'pan kierownik', title: 'Salary', amo: 20000.89 },
-                { username: 'pan kierownik', title: 'Salary', amo: 20000.89 },
-                { username: 'pan kierownik', title: 'Salary', amo: 20000.89 },
+                { username: 'Boss', title: 'Salary', amo: 20000.89 },
+                { username: 'Boss', title: 'Salary', amo: 20000.89 },
+                { username: 'Boss', title: 'Salary', amo: 20000.89 },
             ]
         },
         'x': {
             login:  'x',
             password: "abc",
             email: 'lalid.elali1@gmail.com',
-            balance: 123456,
+            balance: 123456.78,
             transactions: [
                 { username: 'krzysiek', title: 'Ziemniory', amo: -256.99 },
                 { username: 'maciek', title: 'Tanie ubrania', amo: -20 },
                 { username: 'czesiek', title: 'Drogie ubrania', amo: -350 },
                 { username: 'maciek', title: 'Wódeczka', amo: -26.99 },
                 { username: 'kubuś', title: 'Burrito', amo: -25.99 },
-                { username: 'pan kierownik', title: 'Salary', amo: 20000.89 },
-                { username: 'pan kierownik', title: 'Salary', amo: 20000.89 },
-                { username: 'pan kierownik', title: 'Salary', amo: 20000.89 },
+                { username: 'Boss', title: 'Salary', amo: 20000.00 },
+                { username: 'Boss', title: 'Salary', amo: 20000.00 },
+                { username: 'Boss', title: 'Salary', amo: 20000.00 },
             ]
         }
     }
@@ -66,9 +66,9 @@ const RegisterPage = (props) => {
                     login:  login,
                     password: password,
                     email: email,
-                    balance: 0,
+                    balance: 2000,
                     transactions: [
-                        { username: 'x', title: 'Salary', amo: 20000.89 },
+                        { username: 'Boss', title: 'Salary', amo: 2000.00 },
                     ]
                 }
                 
